@@ -1,0 +1,350 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+body{
+    background-color:#fff;
+    font-family: 'Roboto', sans-serif;
+    width: 98%;
+    margin: auto 10px;
+}
+/*header starts here*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color:white;
+    padding:10px;
+    position: sticky;
+    top: 0;
+    z-index:10 ;
+}
+li{
+    display: inline-block;
+}
+li a{
+    color: #fff;
+    margin: 5px;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+li a:hover{
+    background-color:white;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.logo1 .log{
+    font-size: 4rem;
+    border: 3px solid white;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+}
+/*header ends here*/
+/*main starts here*/
+/*banner starts here*/
+.pic1{
+    height:20rem;
+    width: 30rem;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 20px 0px;
+}
+.banner-div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:50px 5px 10px 5px;
+}
+.heading1{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    font-size: 4rem;
+    padding: 10px;
+    border-radius: 20px 0px;
+    font-family:'italiano';
+}
+.sec1{
+    padding: 10px;
+}
+.sec2{
+    padding: 10px;
+}
+section p{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size:1rem;
+    text-align: justify;
+}
+/*banner starts here*/
+/*about me starts here*/
+.heading h2{
+    text-align: center;
+    font-size: 3rem;
+    font-family:'italiano';
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+    background-color:black;
+    color: white;
+    border-radius: 20px 0px;
+}
+.sec3{
+    display: flex;
+}
+.card p{
+    margin: 5px;
+    padding: 10px;
+    font-size: 1.1rem;
+}
+.card h3{
+    font-size: 1.5rem;
+    margin: 10px;
+    padding: 5px;
+}
+.card{
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    transition: transform 0.5s;
+    border-radius: 20px 0px;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card .btn1{
+    margin: 10px;
+    padding: 5px 13px;
+    background-color: red;
+    color: white;
+    border-radius:0px 10px;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: transform 0.4s;
+}
+.card .btn1:hover{
+    transform: scale(1.2);
+}
+/*about me ends here*/
+/*archive starts here*/
+.archive-container{
+    margin-top: 30px;
+    border-top: 2px dashed black;
+    border-bottom: 2px dashed black;
+}
+.archive-list li img{
+    height: 150px;
+    width: auto;
+    border-radius: 10px 0px;
+    border: 2px solid black;
+    transition: 0.4s;
+}
+.archive-list li img:hover{
+    transform: scale(1.1);
+}
+.archive-list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px;
+}
+#archives{
+    margin-top: 50px;
+    text-align: center;
+}
+/*archive ends here*/
+/*blog starts here*/
+#blog-post{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 1rem;
+    align-items: center;
+}
+h2{
+    text-align: center;
+    font-size: 3rem;
+    font-family:'italiano';
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+    background-color:black;
+    color: white;
+    border-radius: 20px 0px;
+}
+.blog-container{
+    background-color: black;
+    color: #fff;
+    width: 70%;
+    display: flex;
+    margin: 10px 0px;
+    border: 2px solid black;
+    border-radius: 20px 0px;
+    transition: transform 0.4s;
+}
+.blog-container:hover{
+    transform: scale(1.1);
+}
+.desc-part{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 2;
+}
+.desc-part h2{
+    margin:5px 0px;
+    padding: 5px;
+}
+.img-part img{
+    height:100%;
+    width: 100%;
+    border-radius: 10px 0px;
+}
+.img-part{
+    padding: 10px;
+    flex: 2;
+    margin: 0px 10px;
+}
+.btn1{
+    margin: 10px;
+    padding: 5px 13px;
+    background-color: red;
+    color: white;
+    border-radius:0px 10px;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: transform 0.4s;}
+/*blog ends here*/
+/*contact starts here*/
+#contact-box{
+    background-color: black;
+    color: #fff;
+    width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 20px 0px;
+    text-align: center;
+}
+#contact-box:hover{
+    box-shadow: 5px 5px 5px #2d3436;
+}
+.control-form{
+    margin: 10px;
+    padding: 10px;
+}
+.control-form input,textarea{
+    text-align: center;
+    font-size: 1rem;
+    padding: 5px;
+}
+.control-form textarea{
+    resize: none;
+    margin-right: 30px;
+}
+label{
+    font-size: 1.1rem;
+    padding: 5px;
+    text-transform: uppercase;
+}
+/*contact ends here*/
+/*main ends here*/
+/*footer starts here*/
+footer{
+    margin: 30px 5px;
+}
+nav p{
+    font-size: 1.2rem;
+    margin: 10px ;
+    padding: 10px;
+}
+.last ul{
+    margin-right: 40px;
+}
+.last li i{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+/*footer ends here*/
+/*responsive starts here*/
+@media (max-width:992px) {
+    
+}
+@media (max-width:768px) {
+ .banner-div{
+    flex-wrap: wrap;
+ }
+ #archives .archive-list{
+    flex-wrap: wrap;
+    flex-direction: column;
+ }
+ #archives .archive-list li img{
+    width: 90%;
+    margin: 10px;
+ }
+}
+@media (max-width:600px) {
+    nav{
+        flex-direction: column;
+        text-align: center;
+        font-size: 0.5rem;
+    }
+    ul li{
+        display: block;
+        margin: 15px 0px;
+        padding: 0px;
+    }
+    ul li a{
+        font-size: 1rem;
+    }
+    .banner-div{
+        flex-direction: column;
+    }
+    .sec2{
+        margin: 10px;
+    }
+    .sec2 img{
+        width: 95%;
+    }
+    .heading1{
+        font-size: 3rem;
+        width: 95%;
+    }
+    .heading{
+        width: 95%;
+    }
+    .sec1{
+        text-align: center;
+    }
+    .sec3{
+        flex-direction: column;
+        width:95%;
+    }
+    .archive-list{
+        flex-direction: column;
+    }
+    .archive-list li img{
+        width: 95%;
+    }
+    .blog-container{
+        width: 95%;
+    }
+}
+@media (max-width:400px) {
+    
+}
+/*responsive ends here*/
